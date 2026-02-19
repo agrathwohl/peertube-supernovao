@@ -1,0 +1,22 @@
+{
+  "peertube": {
+    "url": "https://internal.tube.sh",
+    "registrationToken": "ptrrt-3fa77b98-beec-48dc-afa2-8583877449de",
+    "runnerName": "supernovao-bridge",
+    "runnerDescription": "Supernovao distributed encoding bridge"
+  },
+  "supernovao": {
+    "storage": ".supernovao",
+    "dhtPort": 49737,
+    "bitrate": "200000",
+    "level": "5.1"
+  },
+  "polling": {
+    "intervalMs": 5000,
+    "maxConcurrentJobs": 2
+  },
+  "timeouts": {
+    "jobTimeoutMs": 3600000,
+    "segmentTimeoutMs": 600000
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.supernovao/
+*.log
+.env
+
+claudedocs/*
+
+CLAUDE.md
+.claude
